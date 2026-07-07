@@ -29,6 +29,8 @@ footer {
 
 .navigation {
     background-color: #ffffffa7;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .navigation a {
@@ -42,7 +44,9 @@ footer {
 }
 
 #course-title {
+    display: block;
     font-weight: 300;
+    text-align: center;
 }
 
 #about-me-section {
