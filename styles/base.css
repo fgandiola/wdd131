@@ -1,6 +1,9 @@
 :root {
-    --primary-color: rgb(7, 7, 56);
+    --primary-color: rgb(9, 9, 71);
     --text-color: #fff;
+    --padding: 1rem;
+    --padding-low: 0.7rem;
+    --margin-card-img: 0.7rem 0.3rem;
 }
 
 * {
@@ -13,18 +16,42 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     color: var(--text-color);
+    width: 100%;
 }
 
 header h1 {
     background-color: var(--primary-color);
+    padding: var(--padding);
 }
 
 main {
-    background-color: rgb(16, 15, 22);
+    background-color: rgb(28, 27, 39);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 80px 1fr;
+}
+
+main h1 {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    justify-self: center;
+    align-self: center;
+    padding: var(--padding);
+}
+
+main section {
+    margin: 0 1rem 2rem 1rem;
+    border: 2px var(--text-color) solid;
+    border-radius: 0.5rem;
 }
 
 footer {
     background-color: var(--primary-color);
+    text-align: center;
+}
+
+footer p {
+    padding: var(--padding-low);
 }
 
 .navigation {
@@ -37,10 +64,20 @@ footer {
     text-decoration: none;
     color: var(--primary-color);
     font-weight: 500;
+    padding: var(--padding);
 }
 
 .card h2 {
     background-color: var(--primary-color);
+    padding: var(--padding-low);
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.card img {
+    margin: var(--margin-card-img);
+    place-self: center;
+    border: 1px rgb(128, 128, 128) solid;
 }
 
 #course-title {
@@ -50,14 +87,20 @@ footer {
 }
 
 #about-me-section {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, auto);
+    grid-template-rows: 50px repeat(3, 1fr);
 }
 
 #about-me-section h2 {
     grid-column: 1 / 5;
     grid-row: 1 / 2;
+}
+
+#about-me-section p {
+    padding: var(--padding-low);
 }
 
 #self-intro-text {
@@ -66,7 +109,7 @@ footer {
 }
 
 #profile-photo {
-    width: 100px;
+    width: 75%;
     height: auto;
     grid-column: 4 / 5;
     grid-row: 2 / 4;
@@ -75,10 +118,14 @@ footer {
 #about-me-section h3 {
     grid-column: 1 / 4;
     grid-row: 3 / 4;
+    place-self: center;
+    border-bottom: 1px var(--text-color) solid;
+    margin: 1rem 0 1rem 5px;
+    padding: 0 5rem 1rem 5rem;
 }
 
 #pilar-parish-photo {
-    width: 100px;
+    width: 75%;
     height: auto;
     grid-column: 1 / 2;
     grid-row: 4 / 5;
@@ -87,4 +134,14 @@ footer {
 #city-text {
     grid-column: 2 / 5;
     grid-row: 4 / 5;
+}
+
+#resources-section {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+}
+
+#resources-section div{
+    margin-left: 3rem;
+    margin-top: 1rem;
 }
