@@ -1,9 +1,10 @@
 :root {
-    --primary-color: rgb(9, 9, 71);
+    --primary-color: rgb(7, 7, 54);
     --text-color: #fff;
     --padding: 1rem;
     --padding-low: 0.7rem;
     --margin-card-img: 0.7rem 0.3rem;
+    --background-gray: rgb(28, 27, 39);
 }
 
 * {
@@ -16,6 +17,10 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     color: var(--text-color);
+    background-color: var(--background-gray);
+}
+
+header {
     width: 100%;
 }
 
@@ -25,7 +30,9 @@ header h1 {
 }
 
 main {
-    background-color: rgb(28, 27, 39);
+    width: 1024px;
+    margin: 0 auto;
+    background-color: var(--background-gray);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 80px 1fr;
@@ -46,6 +53,7 @@ main section {
 }
 
 footer {
+    width: 100%;
     background-color: var(--primary-color);
     text-align: center;
 }
@@ -55,7 +63,7 @@ footer p {
 }
 
 .navigation {
-    background-color: #ffffffa7;
+    background-color: #ffffff;
     display: flex;
     justify-content: space-evenly;
 }
