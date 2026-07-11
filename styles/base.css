@@ -97,6 +97,10 @@ footer p {
     display: block;
     font-weight: 300;
     text-align: center;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    padding: var(--padding);
+    font-size: x-large;
 }
 
 #about-me-section {
