@@ -91,7 +91,7 @@ footer p {
     grid-row: 2 / 3;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 50px repeat(3, 1fr);
+    grid-template-rows: 50px 1fr 50px 1fr;
 }
 
 #about-me-section h2 {
@@ -101,6 +101,8 @@ footer p {
 
 #about-me-section p {
     padding: var(--padding-low);
+    align-self: center;
+    margin: 1rem;
 }
 
 #self-intro-text {
