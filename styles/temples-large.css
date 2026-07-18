@@ -9,10 +9,15 @@
         display: none;
     }
 
+    nav {
+        display: flex;
+        background-color: var(--primary-color);
+    }
+
     .navigation {
+        display: flex;
         justify-content: flex-end;
         flex-direction: row;
-        background-color: var(--primary-color);
     }
 
     .navigation li {

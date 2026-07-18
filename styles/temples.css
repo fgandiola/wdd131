@@ -37,11 +37,15 @@ header, footer {
     color: #fff;
 }
 
+nav {
+    display: flex;
+    background-color: rgb(242, 242, 242);
+    justify-content: center;
+}
+
 .navigation {
     list-style: none;
-    display: flex;
     flex-direction: column;
-    background-color: rgb(242, 242, 242);
 }
 
 .navigation li {
