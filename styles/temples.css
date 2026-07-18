@@ -24,14 +24,31 @@ header, footer {
     font-weight: 700;
 }
 
-nav ul {
+#menu {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+}
+
+#menu::before {
+    content: "≡";
+    color: #fff;
+}
+
+.navigation {
     list-style: none;
     display: flex;
     flex-direction: column;
     background-color: rgb(201, 201, 202);
 }
 
-nav a {
+.navigation li {
+    display: none;
+}
+
+.navigation a {
     display: block;
     text-align: center;
     text-decoration: none;
@@ -39,12 +56,21 @@ nav a {
     color: var(--primary-color);
 }
 
-nav a:hover {
+.navigation a:hover {
     color: tan;
 }
 
 .active {
     font-weight: 700;
+}
+
+.show li {
+    display: block;
+}
+
+#menu.show::before {
+    content: "X";
+    color: #fff;
 }
 
 main {
