@@ -1,0 +1,83 @@
+:root {
+    --primary-color: rgb(7, 7, 54);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Kameron", serif;
+    font-weight: 400;
+}
+
+header, footer {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+#page-title {
+    margin: 1.5rem;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(201, 201, 202);
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem;
+    color: var(--primary-color);
+}
+
+nav a:hover {
+    color: tan;
+}
+
+.active {
+    font-weight: 700;
+}
+
+main {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+main h1 {
+    display: block;
+    text-align: center;
+    margin: 1.5rem;
+}
+
+figure img {
+    width: 100%;
+}
+
+figcaption {
+    margin: 1rem;
+}
+
+#temple-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+footer p {
+    padding: 0.5rem;
+}
