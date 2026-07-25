@@ -1,0 +1,16 @@
+:root {
+    --primary-color: rgb(200, 0, 0);
+    --secondary-color: rgb(255, 208, 113);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: normal;
+}
