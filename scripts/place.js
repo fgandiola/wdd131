@@ -36,5 +36,8 @@ if (weatherTemperature <= 10) {
     }
     else {
         currentWindChill.innerHTML = 'N/A'
+    }
 }
+else {
+    currentWindChill.innerHTML = 'N/A'
 }

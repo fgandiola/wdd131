@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 131 | Country Page</title>
-    <meta name="description" content="">
+    <meta name="description" content="This page includes information about Peru such as population, languages, and others, and current weather data.">
     <meta name="author" content="Francisco Gandiola">
     <link rel="stylesheet" href="styles/place.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,8 +20,9 @@
     <main>
         <div class="hero">
             <picture>
-                <source srcset="images/peru-hero-large.webp" media="(min-width: 500px)">
-                <img src="images/peru-hero-small.webp" width="500" alt="Person holding a peruvian flag in Peru">
+                <source srcset="images/peru-hero-large.webp" media="(min-width: 720px)">
+                <source srcset="images/peru-hero-small" media="(max-width: 719)">
+                <img src="images/peru-hero-small.webp" width="720" height="900" alt="Person holding a peruvian flag in Peru">
             </picture>
             <section class="information" id="data-section">
                 <h2>Data</h2>
@@ -35,8 +36,8 @@
                 <p><span class="highlight">Internet TLD:</span> .pe</p>
             </section>
             <section class="information" id="weather-section">
-                <h2>Weather <span id="weather-icon">⛅</span></h2>
-                <img src="images/weather-cloud.svg">
+                <h2>Weather</h2>
+                <img src="images/weather-cloud.svg" alt="Cloudy weather icon">
                 <p><span class="highlight">Temperature: </span><span id="current-temperature"></span> ℃</p>
                 <p><span class="highlight">Conditions: </span><span id="current-condition"></span></p>
                 <p><span class="highlight">Wind: </span><span id="current-wind"></span> km/h</p>
