@@ -1,0 +1,36 @@
+:root {
+    --primary-color: rgb(44, 95, 191);
+    --secondary-color: rgb(254, 188, 33);
+    --text-color: rgb(255, 255, 255);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.planning-card {
+    border: 2px var(--secondary-color) solid;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    h2 {
+        margin-bottom: 2rem;
+        background-color: var(--secondary-color);
+    }
+}
+
+footer {
+    text-align: center;
+}
