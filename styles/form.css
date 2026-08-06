@@ -1,0 +1,80 @@
+:root {
+    --page-color: #1f1f5a;
+    --form-color: #ebe7ffd7;
+    --highlight-color: #b57500;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header, footer {
+    background-color: var(--page-color);
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    margin: 10px;
+}
+
+.pform {
+    margin: 0 auto;
+    background-color: var(--form-color);
+    padding: 1rem;
+    width: 450px;
+}
+
+.pform label,
+.pform select {
+    display: block;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+.pform input[type="radio"],
+.pform input[type="checkbox"] {
+    margin-right: 10px;
+    margin-left: 10px
+}
+
+.star {
+    color: var(--highlight-color);
+}
+
+.pform input[type="submit"] {
+    padding: .8rem;
+    font-size: large;
+    background-color: var(--page-color);
+    color: #ffffff;
+    margin-top: 1rem;
+    width: 100%;
+}   
+
+.pform input[type="text"],
+.pform textarea,
+.pform select,
+.pform input[type="date"] {
+    padding: .7rem;
+    width: 100%;
+}
+
+.ptitle {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.optionalText {
+    color: var(--highlight-color);
+}
+
+.pform input[type="radio"],
+.pform input[type="checkbox"] {
+    padding: 0.3rem;
+}

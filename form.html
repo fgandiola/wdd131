@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta>
+    <meta>
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form method="get" action="review.html" class="pform">
+                <label for="product" class="ptitle">Product Name
+                    <select id="productlist" name="product" required>
+                        <option value="" disabled selected>Choose a Product</option>
+                    </select>
+                </label>
+                <div class="ptitle">Overall Rating</div>
+                <label class="star"><input type="radio" id="rating1" name="rating" value="1" required>☆</label>
+                <label class="star"><input type="radio" id="rating2" name="rating" value="2" required>☆☆</label>
+                <label class="star"><input type="radio" id="rating3" name="rating" value="3" required>☆☆☆</label>
+                <label class="star"><input type="radio" id="rating4" name="rating" value="4" required>☆☆☆☆</label>
+                <label class="star"><input type="radio" id="rating5" name="rating" value="5" required>☆☆☆☆☆</label>
+                <div class="ptitle">Date of Installation</div>
+                <input type="date" id="installDate" name="installDate" required>
+                <div class="ptitle">Which features did you find useful in the product? (Check all that apply)</div>
+                <label><input type="checkbox" id="feature1" name="features" value="durable">Durability</label>
+                <label><input type="checkbox" id="feature2" name="features" value="easy">Ease of Use</label>
+                <label><input type="checkbox" id="feature3" name="features" value="performance">Performance</label>
+                <label><input type="checkbox" id="feature4" name="features" value="design">Design</label>
+                <div class="ptitle">Written Review <span class="optionalText">(Optional)</span></div>
+                <textarea id="wreview" name="wreview"></textarea>
+                <div class="ptitle">Your Name <span class="optionalText">(Optional)</span></div>
+                <label for="uname"><input type="text" id="uname" name="uname"></label>
+                <input type="submit" value="Post Review">
+        </form>
+    </main>
+    <footer>
+        <p>©<span id="current-year"></span> 🔸 Francisco Gandiola 🔸 Argentina</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+    
+</body>
+</html>
