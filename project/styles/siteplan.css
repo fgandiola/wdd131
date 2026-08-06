@@ -1,13 +1,17 @@
 :root {
-    --primary-color: rgb(44, 95, 191);
-    --secondary-color: rgb(254, 188, 33);
-    --text-color: rgb(255, 255, 255);
+    --highlight-color: #dd9a00;
+    --main-color: #3a2276;
+    --secondary-color: #e4edff;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: var(--main-color);
 }
 
 h1, h2 {
@@ -17,20 +21,29 @@ h1, h2 {
 
 p {
     font-family: 'Times New Roman', Times, serif;
+    padding: 2px 0 2px 0;
 }
 
 .planning-card {
-    border: 2px var(--secondary-color) solid;
+    border: 2px var(--highlight-color) solid;
     margin: 1rem;
     padding: 1rem;
-    background-color: var(--primary-color);
-    color: var(--text-color);
+    background-color: var(--secondary-color);
+    color: var(--main-color);
     h2 {
         margin-bottom: 2rem;
-        background-color: var(--secondary-color);
+        font-weight: 700;
     }
 }
 
 footer {
     text-align: center;
+    color: var(--secondary-color);
+}
+
+.highlight {
+    font-weight: 700;
+    color: var(--secondary-color);
+    background-color: var(--highlight-color);
+    padding: 2px;
 }
