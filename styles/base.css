@@ -18,18 +18,17 @@ body {
     background-color: var(--background-color);
 }
 
-#course-title {
-    display: block;
-    font-size: xx-large;
-    padding: 1rem;
-}
-
-
-header, footer {
+header {
     color: var(--heading-color);
     background-color: var(--primary-color);
     max-width: 100%;
     min-width: 840px;
+}
+
+#course-title {
+    display: block;
+    font-size: xx-large;
+    padding: 1rem;
 }
 
 main {
@@ -37,7 +36,7 @@ main {
     margin: 0 auto;
     background-color: var(--background-color);
     display: grid;
-    grid-template-areas: auto 1fr auto / auto 1fr auto;
+    grid-template: auto 1fr auto / auto 1fr auto;
 }
 
 main h1 {
@@ -106,13 +105,20 @@ main h1 {
     padding: 2px;
 }
 
+footer {
+    color: var(--heading-color);
+    background-color: var(--primary-color);
+    max-width: 100%;
+    min-width: 840px;
+}
+
 footer p {
     padding: 1rem;
 }
 
 #about-card {
     display: grid;
-    grid-template-areas: auto 1fr auto / auto 1fr auto;
+    grid-template: auto 1fr auto / auto 1fr auto;
 }
 
 #about-card h2 {
