@@ -18,13 +18,12 @@ body {
     background-color: var(--background-color);
 }
 
-header {
-    #course-title {
-        display: block;
-        font-size: xx-large;
-        padding: 1rem;
-    }
+#course-title {
+    display: block;
+    font-size: xx-large;
+    padding: 1rem;
 }
+
 
 header, footer {
     color: var(--heading-color);
@@ -52,62 +51,63 @@ main h1 {
     background-color: var(--secondary-color);
     display: flex;
     justify-content: space-around;
-    li {
-        list-style: none;
-        padding: 1rem;
-        a {
-            text-decoration: none;
-            color: var(--heading-color);
-        }
-        a:hover {
-            color: var(--secondary-color);
-            background-color: var(--heading-color);
-        }
-    }
+}
+
+.navigation li {
+    list-style: none;
+    padding: 1rem;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: var(--heading-color);
+}
+
+.navigation a:hover {
+    color: var(--secondary-color);
+    background-color: var(--heading-color);
 }
 
 .card {
     border: 1px var(--secondary-color) solid;
     border-radius: 5px;
     margin: 0.5rem;
-    p, h3 {
-        color: var(--text-color);
-    }
-    p {
-        text-align: left;
-        padding: 1rem;
-    }
-    h2 {
-        background-color: var(--primary-color);
-        color: var(--heading-color);
-        padding: 1rem;
-    }
-    h3 {
-        margin: 1rem;
-        padding: 5px;
-        border-bottom: 2px var(--secondary-color) solid;
-    }
-    img {
-        margin: 1rem;
-        width: 200px;
-        border: 1px var(--secondary-color) solid;
-        box-shadow: 0px 0px 3px var(--text-color);
-    }
-    ul {
-        padding: 1rem;
-    }
-    li {
-        list-style-position: inside;
-        text-align: left;
-        text-indent: 1rem;
-        padding: 2px;
-    }
+}
+.card p, .card h3 {
+    color: var(--text-color);
+}
+.card p {
+    text-align: left;
+    padding: 1rem;
+}
+.card h2 {
+    background-color: var(--primary-color);
+    color: var(--heading-color);
+    padding: 1rem;
+}
+.card h3 {
+    margin: 1rem;
+    padding: 5px;
+    border-bottom: 2px var(--secondary-color) solid;
+}
+.card img {
+    margin: 1rem;
+    width: 200px;
+    border: 1px var(--secondary-color) solid;
+    box-shadow: 0px 0px 3px var(--text-color);
+}
+.card ul {
+    padding: 1rem;
+}
+.card li {
+    list-style-position: inside;
+    text-align: left;
+    text-indent: 1rem;
+    padding: 2px;
 }
 
-footer {
-    p {
-        padding: 1rem;
-    }
+footer p {
+    padding: 1rem;
 }
 
 #about-card {
@@ -144,6 +144,3 @@ footer {
     grid-row: 4 / 5;
     grid-column: 2 / 4;
 }
-
-
-
