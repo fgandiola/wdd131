@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    span {
+    #course-title {
         display: block;
         font-size: xx-large;
         padding: 1rem;
