@@ -9,11 +9,14 @@
     <meta name="author" content="Francisco Gandiola">
     <link rel="stylesheet" href="styles/base.css">
     <script src="scripts/getdates.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <p>WDD 131: Dynamic Web Fundamentals</p>
+        <p><span>WDD 131: Dynamic Web Fundamentals</span></p>
         <nav>
             <ul class="navigation">
                 <li><a href="www.linkedin.com/in/francisco-lautaro-gandiola-b43a20386">LinkedIn</a></li>
@@ -25,21 +28,22 @@
     </header>
     <main>
         <h1>Francisco L. Gandiola</h1>
-        <section class="card">
+        <section class="card" id="about-card">
             <h2>About me</h2>
-            <p>My name is Francisco, but feel free to call me Fran (some classmates used to call me "Chino"). I was born and raised in
+            <p id="intro">My name is Francisco, but feel free to call me Fran (some classmates used to call me "Chino"). I was born and raised in
             Pilar, a small city located at the northwest of Buenos Aires. Nowadays I work as an in-field mentor for the Missionary Training Center. I live with my three younger sisters, though I am planning to move out at the end of the year. I enjoy to play sports and tabletop games with friends, to appreciate nature, and to learn more about spiritual and
             secular matters.</p>
-            <img src="images/gandiola-profile-photo.webp" alt="Francisco Gandiola">
+            <img src="images/gandiola-profile-photo.webp" alt="Francisco Gandiola" id="profile">
             <h3>Pilar City</h3>
-            <img src="images/parrish-pilar-plaza.webp" alt="Nuestra Señora del Pilar Parrish">
-            <p>Pilar is part of the Greater Buenos Aires urban conurbation and is the
+            <img src="images/parrish-pilar-plaza.webp" alt="Nuestra Señora del Pilar Parrish" id="city">
+            <p id="city-info">Pilar is part of the Greater Buenos Aires urban conurbation and is the
             seat of the administrative division of Pilar Partido. It is located about 51 km northwest of downtown Buenos Aires. The city has a population of nearly 52,000.</p>
         </section>
         <section class="card">
-            <h2></h2>
+            <h2>Web Dev Resources</h2>
             <ul>
-                <li><a></a></li>
+                <li><a href="https://byui-cse.github.io/wdd131-ww-course/">WDD 131 Course Content</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/">MDN</a></li>
             </ul>
         </section>
     </main>
