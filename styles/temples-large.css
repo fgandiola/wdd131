@@ -1,9 +1,43 @@
+:root {
+    --primary-color: #352274;
+    --background-color: #f2f2fe;
+    --heading-color: #ffffff;
+    --text-color: #050021;
+    --nav-background-color: #cecee2;
+}
+
 @media screen and (min-width: 840px) {
     #album {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    #nav-button {
+    #menu {
         display: none;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        align-items: center;
+    }
+
+    nav {
+        display: block;
+        margin-right: 1rem;
+    }
+
+    nav ul {
+        background-color: var(--primary-color);
+        flex-direction: row;
+        justify-content: right;
+        gap: 3rem;
+    }
+
+    nav a {
+        color: var(--heading-color);
+    }
+
+    nav a:hover {
+        font-weight: 400;
     }
 }

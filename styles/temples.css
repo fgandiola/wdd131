@@ -3,7 +3,7 @@
     --background-color: #f2f2fe;
     --heading-color: #ffffff;
     --text-color: #050021;
-    --nav-background-color: #c2c2e2;
+    --nav-background-color: #cecee2;
 }
 
 * {
@@ -30,10 +30,6 @@ main {
 
 /* Navigation */
 
-nav {
-    display: none;
-}
-
 nav ul {
     display: flex;
     flex-direction: column;
@@ -53,7 +49,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #ffb732;
+    color: #d79419;
     font-weight: 700;
 }
 
@@ -84,11 +80,30 @@ nav a:hover {
 
 /* Navigation button */
 
-#nav-button {
+nav {
+    display: none;
+}
+
+#menu {
     color: var(--heading-color);
     position: absolute;
     top: 1rem;
     right: 1rem;
     font-weight: 700;
     font-size: xx-large;
+    background: none;
+    border: 0;
 }
+
+#menu::before {
+    content: "≡";
+}
+
+#menu.open::before {
+    content: "⨯";
+}
+
+.open {
+    display: block;
+}
+
