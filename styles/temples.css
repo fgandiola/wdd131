@@ -26,7 +26,7 @@ header, footer {
 
 main {
     max-width: 840px;
-    min-width: 400px;
+    min-width: 240px;
     margin: 0 auto;
 }
 
