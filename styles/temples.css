@@ -12,6 +12,8 @@
     padding: 0;
 }
 
+/* Font, color and sizing */
+
 body {
     font-family: "Arimo", sans-serif;
     font-weight: 400;
@@ -35,6 +37,7 @@ nav ul {
     flex-direction: column;
     background-color: var(--nav-background-color);
     align-items: center;
+    padding: 8px;
 }
 
 nav li {
@@ -64,18 +67,23 @@ nav a:hover {
 
 #album {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     grid-gap: 20px;
+    place-items: center;
+    margin: 1rem;
 }
 
-#album figure {
-    place-items: center;
+#album figcaption {
+    color: var(--text-color);
+    text-align: center;
+    padding: 1rem;
 }
 
 #album img {
     width: 100%;
     height: auto;
-    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 5px;
 }
 
 /* Navigation button */
@@ -107,3 +115,20 @@ nav {
     display: block;
 }
 
+/* Other */
+
+main h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+footer {
+    color: var(--heading-color);
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    margin: 0.5rem;
+    font-weight: 700;
+}

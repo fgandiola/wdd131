@@ -11,6 +11,11 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
+    #album img {
+        width: 260px;
+        height: auto;
+    }
+
     #menu {
         display: none;
     }
