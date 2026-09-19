@@ -1,0 +1,66 @@
+:root {
+    --main-color: #37379a;
+    --card-color: #1c1c4e;
+    --heading-color: #ffffff;
+    --text-color: #0e0e18;
+    --opposite-color: #ffb834;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* structure */
+
+body {
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+header, footer {
+    background-color: var(--main-color);
+    color: var(--heading-color);
+    padding: 2rem;
+}
+
+header {
+    border-bottom: 1rem solid var(--opposite-color);
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+main {
+    color: var(--text-color);
+}
+
+footer {
+    font-size: large;
+}
+
+/* hero */
+
+.highlight {
+    font-weight: 700;
+}
+
+.hero section {
+    padding: 1rem;
+    font-size: large;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    border-bottom: 8px solid var(--main-color);
+}
+
+#weather-card img {
+    width: 100px;
+    height: auto;
+    border: none;
+}
