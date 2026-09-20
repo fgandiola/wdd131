@@ -20,10 +20,10 @@ temperature.innerHTML = `<span class="highlight">Temperature: </span>${tempData}
 conditions.innerHTML = `<span class="highlight">Conditions: </span>${conData}`
 wind.innerHTML = `<span class="highlight">Wind: </span>${winData} km/h`
 
-function calculateWindChill(temperature, windSpeed) {
-    if (temperature <= 10) {
+function calculateWindChill(temp, windSpeed) {
+    if (temp <= 10) {
         if (windSpeed > 4.8) {
-            let calculation = 13.12 + 0.6215 * {temperature} - 11.37 * {windSpeed} ** 0.16 + 0.3965 * {temperature} * {windSpeed} ** 0.16
+            let calculation = 13.12 + 0.6215 * temp - 11.37 * windSpeed ** 0.16 + 0.3965 * temp * windSpeed ** 0.16
             calculation = calculation.toFixed(1);
             let result = `${calculation}°C`;
             return result;
