@@ -113,7 +113,7 @@ const temples = [
 
 // temple cards
 
-createTempleCard();
+createTempleCard(temples);
 
 const filterTitle = document.querySelector("#page-filter");
 
@@ -124,7 +124,7 @@ const smallLink = document.querySelector("#small-link");
 const largeLink = document.querySelector("#large-link");
 
 allLink.addEventListener("click", () => {
-    createTempleCard();
+    createTempleCard(temples);
     filterTitle.textContent = "Home";
 });
 
@@ -139,13 +139,18 @@ largeLink.addEventListener("click", () => {
 });
 
 oldLink.addEventListener("click", () => {
-    createTempleCard(temples.filter(temple => temple.dedicated[0] < 1900));
+    createTempleCard(temples.filter(temple => parseInt(temple.dedicated.split(",")[0]) < 1900));
     filterTitle.textContent = "Old";
+});
+
+newLink.addEventListener("click", () => {
+    createTempleCard(temples.filter(temple => parseInt(temple.dedicated.split(",")[0]) > 2000));
+    filterTitle.textContent = "New";
 });
 
 function createTempleCard(filteredTemples) {
     document.querySelector("#album").innerHTML = "";
-    temples.forEach(temple => {
+    filteredTemples.forEach(temple => {
         let card = document.createElement("section");
         let name = document.createElement("h3");
         let location = document.createElement("p");
