@@ -30,10 +30,15 @@ main div {
     background-color: var(--card-background-color);
     margin: 1rem;
     padding: 1rem;
+    border: 1px solid var(--font-color);
 }
 
 h1, h2 {
     font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+    margin-bottom: 1rem;
 }
 
 p {
@@ -43,4 +48,28 @@ p {
 .highlight {
     color: var(--highlight-color);
     font-weight: 700;
+}
+
+.square {
+    font-size: large;
+}
+
+#sq-orange {
+    color: var(--primary-color);
+}
+
+#sq-white {
+    color: var(--background-color);
+}
+
+#sq-card {
+    color: var(--font-color);
+}
+
+#sq-text {
+    color: var(--font-color);
+}
+
+#sq-highlight {
+    color: var(--highlight-color);
 }
