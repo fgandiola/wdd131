@@ -1,0 +1,46 @@
+:root {
+    --primary-color: #ff6200;
+    --highlight-color: #1d3c84;
+    --card-background-color: #feeada;
+    --font-color: #2d1100;
+    --background-color: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    padding: 2rem;
+}
+
+footer {
+    text-align: center;
+}
+
+main {
+    color: var(--font-color);
+}
+
+main div {
+    background-color: var(--card-background-color);
+    margin: 1rem;
+    padding: 1rem;
+}
+
+h1, h2 {
+    font-family: "Montserrat", sans-serif;
+}
+
+p {
+    font-family: "Arvo", serif;
+}
+
+.highlight {
+    color: var(--highlight-color);
+    font-weight: 700;
+}
