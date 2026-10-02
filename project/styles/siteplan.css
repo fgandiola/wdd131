@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #ff6200;
+    --primary-color: #b63300;
     --highlight-color: #1d3c84;
     --card-background-color: #feeada;
     --font-color: #2d1100;
@@ -75,7 +75,7 @@ p {
 }
 
 
-picture img {
+.wireframes img {
     display: block;
     width: 100%;
     height: auto;
@@ -83,7 +83,7 @@ picture img {
     margin: 8px;
 }
 
-picture p {
+.wireframes p {
     text-align: center;
     margin: 1rem;
 }
