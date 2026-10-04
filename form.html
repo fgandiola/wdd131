@@ -22,21 +22,23 @@
                     </select>
                 </label>
             </div>
-            <div>
-                <label for="rating">Overall Rating</label>
-                <label>★<input type="radio" id="star-1" name="rating" value="1" required></label>
-                <label>★★<input type="radio" id="star-2" name="rating" value="2" required></label>
-                <label>★★★<input type="radio" id="star-2" name="rating" value="3" required></label>
-                <label>★★★★<input type="radio" id="star-4" name="rating" value="4" required></label>
-                <label>★★★★★<input type="radio" id="star-5" name="rating" value="5" required></label>
+            <div>Overall Rating
+                <div id="form-rating">
+                    <label>★<input type="radio" id="star-1" name="rating" value="1" required></label>
+                    <label>★★<input type="radio" id="star-2" name="rating" value="2" required></label>
+                    <label>★★★<input type="radio" id="star-2" name="rating" value="3" required></label>
+                    <label>★★★★<input type="radio" id="star-4" name="rating" value="4" required></label>
+                    <label>★★★★★<input type="radio" id="star-5" name="rating" value="5" required></label>
+                </div>
+                
             </div>
             <div>
                 <label>Date of Installation
                     <input type="date" id="installationDate" name="installationDate" required>
                 </label>
             </div>
-            <div>
-                <label>Which features did you find useful in the product? (Check all that apply)</label>
+            <div id="form-features">Which features did you find useful in the product?
+            (Check all that apply)
                 <label><input type="checkbox" id="durability" name="durability" value="yes">Durability</label>
                 <label><input type="checkbox" id="use" name="use" value="yes">Ease of Use</label>
                 <label><input type="checkbox" id="performance" name="performance" value="yes">Performance</label>

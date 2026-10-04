@@ -1,0 +1,79 @@
+:root {
+    --main-color: #6f0000;
+    --background-one: #ffd4d4;
+    --background-two: #ffe5e5e5;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 480px;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header, footer {
+    background-color: var(--background-one);
+    color: var(--main-color);
+    padding: 2rem;
+    text-align: center;
+    border: 5px solid var(--main-color);
+}
+
+main {
+    background-color: var(--background-two);
+    margin: 1rem 0 1rem 0;
+    border: 5px solid var(--main-color);
+    color: var(--main-color);
+}
+
+footer {
+    font-weight: 700;
+}
+
+form {
+    padding: 8px;
+}
+
+form div {
+    margin: 1rem;
+}
+
+label, input, select, textarea {
+    display: block;
+}
+
+input, select, textarea {
+    margin: 8px 0 8px 0;
+}
+
+#form-rating {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type='text'] {
+    width: 100%;
+    height: 44px;
+    padding: 8px;
+}
+
+textarea {
+    width: 100%;
+    height: 88px;
+    padding: 8px;
+}
+
+input[type='submit'] {
+    background-color: var(--main-color);
+    color: #ffffff;
+    place-self: center;
+    padding: 1rem 2rem;
+    border: 2px solid var(--background-one);
+    font-weight: 700;
+    font-size: large;
+}
