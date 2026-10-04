@@ -45,15 +45,19 @@ form div {
 
 label, input, select, textarea {
     display: block;
-}
-
-input, select, textarea {
     margin: 8px 0 8px 0;
 }
 
 #form-rating {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+}
+
+#form-rating input[type='radio'] {
+    place-self: center;
+    width: 20px;
+    height: 20px;
 }
 
 input[type='text'] {
@@ -62,9 +66,15 @@ input[type='text'] {
     padding: 8px;
 }
 
+select, input[type='date'] {
+    width: 50%;
+    height: 44px;
+    padding: 4px;
+}
+
 textarea {
     width: 100%;
-    height: 88px;
+    height: 132px;
     padding: 8px;
 }
 
@@ -76,4 +86,11 @@ input[type='submit'] {
     border: 2px solid var(--background-one);
     font-weight: 700;
     font-size: large;
+}
+
+#form-features input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+    display: inline;
+    margin-right: 1rem;
 }
