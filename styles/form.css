@@ -52,6 +52,7 @@ label, input, select, textarea {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     text-align: center;
+    grid-gap: 4px;
 }
 
 #form-rating input[type='radio'] {
