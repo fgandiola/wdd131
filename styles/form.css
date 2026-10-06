@@ -95,3 +95,9 @@ input[type='submit'] {
     display: inline;
     margin-right: 1rem;
 }
+
+@media screen and (min-width: 840px) {
+    body {
+        max-width: 840px;
+    }
+};
