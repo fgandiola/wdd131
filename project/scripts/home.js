@@ -16,7 +16,7 @@ const movies = [
         director: "Fernando Ayala",
         cast: "Carlos Cores, Carmen Giménez, George Hilton, Vassili Lambrinos, Adolfo Linvel",
         genre: "",
-        imageUrl: ""
+        imageUrl: "images/poster-tallos.webp"
     },
     {
         name: "Nueve Reinas",
@@ -24,7 +24,7 @@ const movies = [
         director: "Fabián Bielinsky",
         cast: "Gastón Pauls, Ricardo Darín, Leticia Brédice, Tomás Fonzi, Ignasi Abadal",
         genre: "",
-        imageUrl: ""
+        imageUrl: "images/poster-nueve.webp"
     },
     {
         name: "La Ciénaga",
@@ -32,7 +32,7 @@ const movies = [
         director: "Lucrecia Martel",
         cast: "Mercedes Morán, Graciela Borges, Martín Adjemián, Leonora Balcarce, Silvia Baylé",
         genre: "",
-        imageUrl: ""
+        imageUrl: "images/poster-cienaga.webp"
     },
     {
         name: "Diarios de Motocicleta",
@@ -40,7 +40,7 @@ const movies = [
         director: "Walter Salles",
         cast: "Gael García Bernal, Rodrigo de la Serna, Mía Maestro, Mercedes Morán",
         genre: "",
-        imageUrl: ""
+        imageUrl: "images/poster-motocicleta.webp"
     },
     {
         name: "La Antena",
@@ -48,7 +48,7 @@ const movies = [
         director: "Esteban Sapir",
         cast: "Valeria Bertuccelli, Alejandro Urdapilleta, Julieta Cardinali, Florencia Raggi, Rafael Ferro",
         genre: "",
-        imageUrl: ""
+        imageUrl: "images/poster-antena.webp"
     },
     {
         name: "El Secreto de sus Ojos",
@@ -56,7 +56,7 @@ const movies = [
         director: "Juan José Campanella",
         cast: "Ricardo Darín, Soledad Vilamil, Guillermo Francella, Pablo Rago, Javier Godino",
         genre: "",
-        imageUrl: ""
+        imageUrl: "images/poster-secreto.webp"
     },
     {
         name: "Relatos salvajes",
@@ -64,7 +64,7 @@ const movies = [
         director: "Damián Szifrón",
         cast: "Ricardo Darín, Darío Grandinetti, Leonardo Sbaraglia, Érica Rivas, Julieta Zylberberg",
         genre: "",
-        imageUrl: ""
+        imageUrl: "images/poster-relatos.webp"
     },
     {
         name: "El Ángel",
@@ -72,15 +72,15 @@ const movies = [
         director: "Luis Ortega",
         cast: "Lorenzo Ferro, Chino Darín, Cecilia Roth, Daniel Fanego, Mercedes Morán",
         genre: "",
-        imageUrl: ""
+        imageUrl: "images/poster-angel.webp"
     },
     {
         name: "Los Sonámbulos",
         year: "2019",
         director: "Paula Hernández",
-        cast: "Érica Rivas, Ornella D’Elía, Daniel Hendler, Luis Ziembrowski, Rafael Federman",
+        cast: "Érica Rivas, Ornella D'Elía, Daniel Hendler, Luis Ziembrowski, Rafael Federman",
         genre: "",
-        imageUrl: ""
+        imageUrl: "images/poster-sonambulos.webp"
     },
     {
         name: "Argentina 1985",
@@ -88,7 +88,7 @@ const movies = [
         director: "Santiago Mitre",
         cast: "Ricardo Darín, Peter Lanzani, Alejandra Flechner, Carlos Portaluppi, Norman Briski",
         genre: "",
-        imageUrl: ""
+        imageUrl: "images/poster-argentina.webp"
     },
     {
         name: "Los Delincuentes",
@@ -96,7 +96,7 @@ const movies = [
         director: "Rodrigo Moreno",
         cast: "Esteban Bigliardi, Daniel Elías, Laura Paredes, Sergio Hernández, Germán de Silva",
         genre: "",
-        imageUrl: ""
+        imageUrl: "images/poster-delicuentes.webp"
     }
 ]
 
