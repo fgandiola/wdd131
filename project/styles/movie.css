@@ -1,0 +1,58 @@
+:root {
+    --primary-color: #b63300;
+    --highlight-color: #1d3c84;
+    --card-background-color: #feeada;
+    --font-color: #2d1100;
+    --background-color: #ffffff;
+}
+
+#single-movie-hero img {
+    width: 100%;
+    height: auto;
+}
+
+#page-content {
+    text-align: center;
+}
+
+#page-content h2 {
+    margin: 1rem;
+}
+
+#page-content p {
+    padding: 1rem;
+}
+
+#movie-summary {
+    background-color: var(--card-background-color);
+    margin: 1rem;
+    padding: 1rem;
+    font-style: italic;
+    border: 2px solid var(--font-color);
+}
+
+@media screen and (min-width: 1000px) {
+    main {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        align-items: center;
+        width: 95%;
+    }
+
+    #single-movie-hero img {
+        grid-column: 1 / 2;
+        width: 90%;
+        margin: 1rem 0 1rem 0;
+        box-shadow: 0 0 5px 0;
+    }
+
+    #page-content {
+        grid-column: 2 / 3;
+        text-align: left;
+    }
+
+    #movie-summary {
+        text-align: center;
+    }
+}
