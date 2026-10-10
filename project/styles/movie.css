@@ -85,6 +85,10 @@ input[type='submit'] {
     place-self: center;
 }
 
+input[type='submit']:hover {
+    color: var(--card-background-color);
+}
+
 #star-review {
     margin: 8px 4px 0 4px;
     display: grid;

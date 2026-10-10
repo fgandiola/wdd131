@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 | Diarios de Motocicleta | Must-watch Argentine Films</title>
+    <meta name="description" content="Page includes information concerning year, director, cast and other relevant facts about the movie -Diarios de Motocicleta-, as well as a review form.">
+    <meta name="author" content="Francisco Gandiola">
+    <link rel="stylesheet" href="styles/site.css">
+    <link rel="stylesheet" href="styles/movie.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital@0;1&display=swap"
+        rel="stylesheet">
+    <script src="scripts/movie-page.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Must-watch Argentine Films</h1>
+        <p>“Art is a response to life. To be an artist is to embark on a risky way of living.”</p>
+    </header>
+    <main>
+        <div id="single-movie-hero">
+        </div>
+        <section id="page-content">
+            <h2 id="movie-name">Diarios de Motocicleta</h2>
+        </section>
+        <form method="get" action="review.html">
+            <h2>Your Opinion Matters! Rate this Movie:</h2>
+            <fieldset>
+                <legend>Your Review</legend>
+                    <div id="star-review">
+                        <label for="star-1">★<input type="radio" id="star-1" name="rating" value="1" required></label>
+                        <label for="star-2">★★<input type="radio" id="star-2" name="rating" value="2" required></label>
+                        <label for="star-3">★★★<input type="radio" id="star-3" name="rating" value="3" required></label>
+                        <label for="star-4">★★★★<input type="radio" id="star-4" name="rating" value="4" required></label>
+                        <label for="star-5">★★★★★<input type="radio" id="star-5" name="rating" value="5" required></label>
+                    </div>
+                <label for="written-review"><textarea id="written-review" name="written-review" placeholder="Write your opinion here..."></textarea></label>
+            </fieldset>
+            <fieldset>
+                <legend>Your Name</legend>
+                <label><input type="text" id="username" name="username" placeholder="Type your name here..."></label>
+            </fieldset>
+            <input type="submit" value="Share Opinion">
+        </form>
+    </main>
+    <footer>
+        <p>©<span id="currentYear"></span> ■ Francisco Gandiola ■ Argentina</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

@@ -25,7 +25,7 @@ const movies = [
         director: "Fabián Bielinsky",
         cast: "Gastón Pauls, Ricardo Darín, Leticia Brédice, Tomás Fonzi, Ignasi Abadal",
         genre: "Thriller, Crime",
-        description: "Juan and Marcos are two small-time con artists—one young, the other a veteran of the trade—who unexpectedly find themselves caught up in a scheme that could make them millionaires: they have less than a day to pull off a scam that cannot fail.",
+        description: "*Nine Queens* is a 2000 Argentine crime-thriller film written and directed by Fabián Bielinsky. It stars Ricardo Darín and Gastón Pauls, with supporting roles played by José Ignacio Abadal, Tomás Fonzi, Graciela Tenenbaum, Oscar Núñez, Alejandro Awada, and Jorge Noya. It also features special appearances by Leticia Brédice and veteran actress Elsa Berenguer, as well as a cameo by Roly Serrano. The film tells the story of two con artists who meet by chance and decide to team up. Following its release, it was nominated for twenty-nine international awards, winning twenty-one of them. It is considered the director's masterpiece and an essential classic of Argentine cinema. In a 2022 poll ranking the 100 best Argentine films, it placed tenth. Also in 2022, the film was included in the Spanish magazine *Fotogramas*' list of the 20 best Argentine films of all time.",
         banner: 'images/nueve-reinas-hero.webp',
         image: "images/poster-nueve.webp",
     },
@@ -35,8 +35,9 @@ const movies = [
         director: "Lucrecia Martel",
         cast: "Mercedes Morán, Graciela Borges, Martín Adjemián, Leonora Balcarce, Silvia Baylé",
         genre: "Drama",
-        description: "Two families—one urban middle-class and the other consisting of struggling rural producers—cross paths amidst the provincial lethargy of a chaotic yet unchanging Salta, where nothing happens, yet everything is on the verge of exploding.",
-        banner: ''
+        description: "*La Ciénaga* is a 2001 drama film written and directed by Lucrecia Martel. It is a co-production between Argentina, Spain, and France. Executive producers included Ana Aizenberg, Diego Guebel, and Mario Pergolini, with Lita Stantic serving as producer. The film stars Graciela Borges, Mercedes Morán, Martín Adjemián, and Daniel Valenzuela in the lead roles. Set in northwestern Argentina, the plot centers on two families linked by kinship—specifically, the mothers are cousins: one family is middle-class, while the other consists of wealthy rural producers who are in a state of decline. The film received positive reviews, particularly for Martel's direction and Borges's performance. It earned eight nominations from the Argentine Film Critics Association and won awards at the Havana Film Festival, the Berlin Film Festival, and others. In 2022, *La Ciénaga* took first place in the Argentine Cinema Poll conducted by the Pablo Ducrós Hicken Film Museum, being voted the best Argentine film of all time by a wide margin.",
+        banner: 'images/cienaga-hero.webp',
+        image: "images/poster-cienaga.webp"
     },
     {
         name: "Diarios de Motocicleta",
@@ -44,8 +45,9 @@ const movies = [
         director: "Walter Salles",
         cast: "Gael García Bernal, Rodrigo de la Serna, Mía Maestro, Mercedes Morán",
         genre: "Drama, Biography",
-        description: "A dramatization of the youthful road trip that changed Ernesto Che Guevara's life.",
-        banner: ''
+        description: "*The Motorcycle Diaries* is a biographical film based on the travel journals of Che Guevara and Alberto Granado; directed by Walter Salles, it stars Gael García Bernal and Rodrigo de la Serna. It won the 2005 Academy Award for Best Original Song for *Al otro lado del río* by Jorge Drexler, in addition to 21 other international awards. The film chronicles the journey Che and Granado took across South America in 1952. Along the way, Guevara finds himself transformed by his observations of the lives of impoverished indigenous peasants. Through the people they meet, they learn about the injustices faced by the poor and experience a range of situations, from the most joyful to the most heartbreaking. The experience reveals the true nature of Latin American identity to Guevara and Granado and changes the course of their lives forever.",
+        banner: 'images/diarios-moto-hero.webp',
+        image: "images/poster-motocicleta.webp"
     },
     {
         name: "La Antena",
