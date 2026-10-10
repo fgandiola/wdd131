@@ -86,7 +86,7 @@ input[type='submit'] {
 }
 
 #star-review {
-    margin-top: 8px;
+    margin: 8px 4px 0 4px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     text-align: center;

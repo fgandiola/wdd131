@@ -39,3 +39,35 @@ p, li {
 header p {
     margin: 1rem 2rem 1rem 0;
 }
+
+/* review page */
+
+#review-page {
+    max-width: 840px;
+    width: 90%;
+    margin: 0 auto;
+    min-height: 400px;
+}
+
+#only-text {
+    margin-top: 200px;
+    font-size: xx-large;
+    padding: 1rem;
+    text-align: center;
+}
+
+#return {
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#return a {
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--highlight-color);
+}
+
+#return a:hover {
+    color: var(--font-color);
+}
