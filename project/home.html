@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <meta name="description" content="">
+    <title>WDD 131 | Home Page | Must-watch Argentine Films</title>
+    <meta name="description" content="Main page for Must-watch Argentine Films. Site includes a filtered list of argentine movies. Movie cards include title, year, genre, director, cast and a brief description.">
     <meta name="author" content="Francisco Gandiola">
     <link rel="stylesheet" href="styles/site.css">
     <link rel="stylesheet" href="styles/home.css">
@@ -17,20 +17,32 @@
 </head>
 <body>
     <header>
-        <img>
         <h1>Must-watch Argentine Films</h1>
         <p>“Art is a response to life. To be an artist is to embark on a risky way of living.”</p>
+        <button type="button" id="movie-filter" aria-label="movie filter button"></button>
+        <nav>
+            <ul>
+                <li><a href="#" id="all-filter">All Movies</a></li>
+                <li><a href="#" id="comedy-filter">Comedy</a></li>
+                <li><a href="#" id="crime-filter">Crime</a></li>
+                <li><a href="#" id="drama-filter">Drama</a></li>
+                <li><a href="#" id="fantasy-filter">Fantasy</a></li>
+                <li><a href="#" id="scifi-filter">Sci-Fi</a></li>
+                <li><a href="#" id="thriller-filter">Thriller</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <div class="hero">
-            <img>
+            <picture>
+                <source srcset="images/hero-main-wide.webp" media="(min-width: 600px)">
+                <img src="images/hero-main.webp" alt="argentine films banner" width="340px" height="300px" loading="lazy">
+            </picture>
         </div>
-        <section id="movie-list">
+        <section>
             <h2>Our Recommendations <span id="genre-heading"></span></h2>
-        </section>
-        <section id="shared-reviews">
-            <h2>Your Space</h2>
-            <p>
+            <div id="movie-list">
+            </div>
         </section>
     </main>
     <footer>

@@ -1,0 +1,133 @@
+:root {
+    --primary-color: #b63300;
+    --highlight-color: #1d3c84;
+    --card-background-color: #feeada;
+    --font-color: #2d1100;
+    --background-color: #ffffff;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+/* movie list */
+
+#movie-list {
+    margin: 0 auto;
+    width: 90%;
+}
+
+section h2 {
+    text-align: center;
+    margin: 2rem;
+}
+
+.movie-box {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+    background-color: var(--card-background-color);
+    padding: 1rem;
+    margin: 8px 0 8px 0;
+    border: 1px solid var(--font-color);
+}
+
+#movie-list img {
+    grid-column: 1 / 2;
+    width: 80%;
+    height: auto;
+}
+
+#movie-list p {
+    grid-column: 2 / 3;
+}
+
+.movie-summary {
+    font-size: small;
+}
+
+.movie-box-info p, li {
+    padding: 4px 2px;
+}
+
+.movie-box-info li {
+    list-style: none;
+}
+
+.movie-box-info a {
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--highlight-color);
+}
+
+/* filter button */
+
+nav {
+    display: none;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--background-color);
+    font-weight: 700;
+}
+
+nav a:hover {
+    color: var(--highlight-color);
+}
+
+#movie-filter {
+    color: var(--background-color);
+    position: absolute;
+    top: 3rem;
+    right: 1rem;
+    font-weight: 700;
+    font-size: xx-large;
+    background: none;
+    border: 0;
+}
+
+#movie-filter::before {
+    content: "≡";
+}
+
+#movie-filter.open::before {
+    content: "⨯";
+}
+
+.open {
+    display: block;
+}
+
+header p {
+    margin: 1rem 2rem 1rem 0;
+}
+
+@media screen and (min-width: 840px) {
+    #movie-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+    }
+
+    #movie-filter {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
