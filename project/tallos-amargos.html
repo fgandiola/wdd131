@@ -26,6 +26,25 @@
         <section id="page-content">
             <h2 id="movie-name">Los Tallos Amargos</h2>
         </section>
+        <form method="get" action="review.html">
+            <h2>Your Opinion Matters! Rate this Movie:</h2>
+            <fieldset>
+                <legend>Your Review</legend>
+                    <div id="star-review">
+                        <label for="star-1">★<input type="radio" id="star-1" name="rating" value="1" required></label>
+                        <label for="star-2">★★<input type="radio" id="star-2" name="rating" value="2" required></label>
+                        <label for="star-3">★★★<input type="radio" id="star-3" name="rating" value="3" required></label>
+                        <label for="star-4">★★★★<input type="radio" id="star-4" name="rating" value="4" required></label>
+                        <label for="star-5">★★★★★<input type="radio" id="star-5" name="rating" value="5" required></label>
+                    </div>
+                <label for="written-review"><textarea id="written-review" name="written-review" placeholder="Write your opinion here..."></textarea></label>
+            </fieldset>
+            <fieldset>
+                <legend>Your Name</legend>
+                <label><input type="text" id="username" name="username" placeholder="Type your name here..."></label>
+            </fieldset>
+            <input type="submit" value="Share Opinion">
+        </form>
     </main>
     <footer>
         <p>©<span id="currentYear"></span> ■ Francisco Gandiola ■ Argentina</p>
