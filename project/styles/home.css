@@ -11,6 +11,10 @@
     height: auto;
 }
 
+footer {
+    margin-top: 1rem;
+}
+
 /* movie list */
 
 #movie-list {

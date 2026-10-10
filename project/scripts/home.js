@@ -58,7 +58,7 @@ const movies = [
         genre: "Sci-fi, Drama, Fantastic",
         description: "An entire city has been rendered voiceless and endures a long, harsh winter. A wicked, unscrupulous man—Mr. T.V., the absolute owner of the images that animate the city and of a vast line of products bearing his personal brand—is carrying out a sinister secret plan to eternally subjugate every soul living there.",
         imageUrl: "images/poster-antena.webp",
-        page: "la-antena.html"
+        page: "#"
     },
     {
         name: "El Secreto de sus Ojos",
@@ -68,7 +68,7 @@ const movies = [
         genre: "Thriller, Drama",
         description: "A retired legal advisor writes a novel in the hope of finding closure regarding the unsolved homicide cases that still haunt him.",
         imageUrl: "images/poster-secreto.webp",
-        page: "secretos-de-sus-ojos.html"
+        page: "#"
     },
     {
         name: "Relatos salvajes",
@@ -78,7 +78,7 @@ const movies = [
         genre: "Thriller, Drama, Dark Comedy",
         description: "Six standalone stories combining suspense, humor, and violence, based on *Amazing Stories* (1985-1987), the television series created by Steven Spielberg.",
         imageUrl: "images/poster-relatos.webp",
-        page: "relatos-salvajes.html"
+        page: "#"
     },
     {
         name: "El Ángel",
@@ -88,7 +88,7 @@ const movies = [
         genre: "Thriller, Drama, Crime",
         description: "Carlitos is a seventeen-year-old with movie-star looks, blond curls, and a baby face. He discovered his true calling—to be a thief—in his early teens. When he meets Ramón at his new school, Carlitos is immediately drawn to him and wants to catch his eye. Together, they embark on a journey of discovery, love, and crime.",
         imageUrl: "images/poster-angel.webp",
-        page: "el-angel.html"
+        page: "#"
     },
     {
         name: "Los Sonámbulos",
@@ -98,7 +98,7 @@ const movies = [
         genre: "Drama, Family",
         description: "A woman and her 14-year-old daughter—a sleepwalker—poised on the verge of waking.",
         imageUrl: "images/poster-sonambulos.webp",
-        page: "sonambulos.html"
+        page: "#"
     },
     {
         name: "Argentina 1985",
@@ -108,7 +108,7 @@ const movies = [
         genre: "Drama, Crime, Historic",
         description: "During the 1980s, a group of lawyers investigates and brings to trial those responsible for the Argentine civic-military dictatorship.",
         imageUrl: "images/poster-argentina.webp",
-        page: "argentina-1985.html"
+        page: "#"
     },
     {
         name: "Los Delincuentes",
@@ -118,7 +118,7 @@ const movies = [
         genre: "Crime, Dark Comedy",
         description: "Two bank employees question the routine lives they lead. One of them finds a solution: committing a crime.",
         imageUrl: "images/poster-delicuentes.webp",
-        page: "delincuentes.html"
+        page: "#"
     }
 ]
 

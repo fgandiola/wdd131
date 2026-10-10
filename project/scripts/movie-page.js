@@ -56,7 +56,8 @@ const movies = [
         cast: "Valeria Bertuccelli, Alejandro Urdapilleta, Julieta Cardinali, Florencia Raggi, Rafael Ferro",
         genre: "Sci-fi, Drama, Fantastic",
         description: "An entire city has been rendered voiceless and endures a long, harsh winter. A wicked, unscrupulous man—Mr. T.V., the absolute owner of the images that animate the city and of a vast line of products bearing his personal brand—is carrying out a sinister secret plan to eternally subjugate every soul living there.",
-        banner: ''
+        banner: '',
+        image: '',
     },
     {
         name: "El Secreto de sus Ojos",
@@ -65,7 +66,8 @@ const movies = [
         cast: "Ricardo Darín, Soledad Vilamil, Guillermo Francella, Pablo Rago, Javier Godino",
         genre: "Thriller, Drama",
         description: "A retired legal advisor writes a novel in the hope of finding closure regarding the unsolved homicide cases that still haunt him.",
-        banner: ''
+        banner: '',
+        image: ''
     },
     {
         name: "Relatos salvajes",
@@ -74,7 +76,8 @@ const movies = [
         cast: "Ricardo Darín, Darío Grandinetti, Leonardo Sbaraglia, Érica Rivas, Julieta Zylberberg",
         genre: "Thriller, Drama, Dark Comedy",
         description: "Six standalone stories combining suspense, humor, and violence, based on *Amazing Stories* (1985-1987), the television series created by Steven Spielberg.",
-        banner: ''
+        banner: '',
+        image: ''
     },
     {
         name: "El Ángel",
@@ -83,7 +86,8 @@ const movies = [
         cast: "Lorenzo Ferro, Chino Darín, Cecilia Roth, Daniel Fanego, Mercedes Morán",
         genre: "Thriller, Drama, Crime",
         description: "Carlitos is a seventeen-year-old with movie-star looks, blond curls, and a baby face. He discovered his true calling—to be a thief—in his early teens. When he meets Ramón at his new school, Carlitos is immediately drawn to him and wants to catch his eye. Together, they embark on a journey of discovery, love, and crime.",
-        banner: ''
+        banner: '',
+        image: ''
     },
     {
         name: "Los Sonámbulos",
@@ -92,7 +96,8 @@ const movies = [
         cast: "Érica Rivas, Ornella D'Elía, Daniel Hendler, Luis Ziembrowski, Rafael Federman",
         genre: "Drama, Family",
         description: "A woman and her 14-year-old daughter—a sleepwalker—poised on the verge of waking.",
-        banner: ''
+        banner: '',
+        image: ''
     },
     {
         name: "Argentina 1985",
@@ -101,7 +106,8 @@ const movies = [
         cast: "Ricardo Darín, Peter Lanzani, Alejandra Flechner, Carlos Portaluppi, Norman Briski",
         genre: "Drama, Crime, Historic",
         description: "During the 1980s, a group of lawyers investigates and brings to trial those responsible for the Argentine civic-military dictatorship.",
-        banner: ''
+        banner: '',
+        image: ''
     },
     {
         name: "Los Delincuentes",
@@ -110,7 +116,8 @@ const movies = [
         cast: "Esteban Bigliardi, Daniel Elías, Laura Paredes, Sergio Hernández, Germán de Silva",
         genre: "Crime, Dark Comedy",
         description: "Two bank employees question the routine lives they lead. One of them finds a solution: committing a crime.",
-        banner: ''
+        banner: '',
+        image: ''
     }
 ]
 
